@@ -25,8 +25,8 @@ Controller这部分则是由nodejs的express框架来实现，通过配置handle
 ### 2.1 Structure Programming
 由于我们所使用的开发语言为Java和Javascript，这两门语言都是面向对象的语言，所以涉及的面向过程的部分会比较少。
 
-### 2.2 Object-Oriented Programming
-#### Entity
+### 2.2 面向对象编程
+#### 实体
 我们的项目主要包括了两个实体类
 其一是用户实体，其二是用户所发布的租赁信息实体。
 在关系上，每个用户可能发布多个Post，每个用户可以看到所有的Post
@@ -37,7 +37,7 @@ Controller这部分则是由nodejs的express框架来实现，通过配置handle
 在我们的项目中，MVC是我们最重要的设计模式。
 从架构设计中可以看出，它在项目中起着重要作用。
 每个部分都有相应的代码实现。
-模型层主要包括实体，dao和服务类。
+模型层主要包括实体。
 视图层主要由前端实现，包括js，html和css。
 控制器层及其关联的控制器类放在控制器文件夹中。
 
