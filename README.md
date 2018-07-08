@@ -6,6 +6,6 @@
 - [《安装部署说明》](documents/Deployment_instruction.md)
 - [《用户手册》](documents/用户手册.md)
 - [《软件需求规格说明书》](documents/SRS.md)
-- 《软件设计文档》
+- [《软件设计文档》](documents/Software_design.md)
 - [《小组分工与贡献率说明》](documents/team-profile.md)
 - [安装包](apk)
